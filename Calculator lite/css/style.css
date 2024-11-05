@@ -1,0 +1,36 @@
+body {
+    text-align: center;
+  }
+  h1 {
+    margin: 40px;
+  }
+  button {
+    width: 100%;
+    border: none;
+  }
+  .red{
+    background-color: red;
+    color: white;
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: 35px 35px 35px 35px;
+    grid-gap: 3px;
+  }
+
+  .grid-container input {
+    grid-column: 1 / span 4;
+  }
+
+  table{
+    margin: auto;
+  }
+
+  .grid-container{
+    margin: 40px 750px;
+  }
+
+  .grid-container .red{
+    grid-column: 1 / span 2;
+  }
